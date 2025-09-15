@@ -1,0 +1,3808 @@
+{
+  "months": [
+    {
+      "month": "2025-01",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-01",
+          "overview": "January theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-01-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-01-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-01-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        }
+      }
+    },
+    {
+      "month": "2025-02",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-02",
+          "overview": "February theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-02-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-02-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-02-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        }
+      }
+    },
+    {
+      "month": "2025-03",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-03",
+          "overview": "March theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-03-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-03-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-03-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        }
+      }
+    },
+    {
+      "month": "2025-04",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-04",
+          "overview": "April theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-04-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-04-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-04-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        }
+      }
+    },
+    {
+      "month": "2025-05",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-05",
+          "overview": "May theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-05-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-05-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-05-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        }
+      }
+    },
+    {
+      "month": "2025-06",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-06",
+          "overview": "June theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-06-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-06-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-06-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        }
+      }
+    },
+    {
+      "month": "2025-07",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-07",
+          "overview": "July theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-07-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-07-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-07-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        }
+      }
+    },
+    {
+      "month": "2025-08",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-08",
+          "overview": "August theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-08-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-08-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-08-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        }
+      }
+    },
+    {
+      "month": "2025-09",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-09",
+          "overview": "September theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-09-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-09-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-09-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        }
+      }
+    },
+    {
+      "month": "2025-10",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-10",
+          "overview": "October theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-10-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-10-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-10-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        }
+      }
+    },
+    {
+      "month": "2025-11",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-11",
+          "overview": "November theme: simplify inputs, improve outputs.",
+          "themes": [
+            "discipline",
+            "clarity",
+            "health"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-11-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-11-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-11-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        }
+      }
+    },
+    {
+      "month": "2025-12",
+      "signs": {
+        "aries": {
+          "sign": "aries",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "taurus": {
+          "sign": "taurus",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "gemini": {
+          "sign": "gemini",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "cancer": {
+          "sign": "cancer",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "leo": {
+          "sign": "leo",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "virgo": {
+          "sign": "virgo",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "libra": {
+          "sign": "libra",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "scorpio": {
+          "sign": "scorpio",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        },
+        "sagittarius": {
+          "sign": "sagittarius",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "learning"
+        },
+        "capricorn": {
+          "sign": "capricorn",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "health"
+        },
+        "aquarius": {
+          "sign": "aquarius",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "productivity"
+        },
+        "pisces": {
+          "sign": "pisces",
+          "month": "2025-12",
+          "overview": "December theme: simplify inputs, improve outputs.",
+          "themes": [
+            "relationships",
+            "focus",
+            "learning"
+          ],
+          "advice": "Batch similar tasks; protect your deep‑work windows.",
+          "key_dates": [
+            {
+              "date": "2025-12-05",
+              "note": "Clear communication aligns plans."
+            },
+            {
+              "date": "2025-12-17",
+              "note": "A workflow tweak pays off."
+            },
+            {
+              "date": "2025-12-28",
+              "note": "Rest and review; let ideas settle."
+            }
+          ],
+          "focus": "relationships"
+        }
+      }
+    }
+  ]
+}
