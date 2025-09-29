@@ -3,6 +3,7 @@ import 'package:flutter/services.dart'; // Import for FilteringTextInputFormatte
 import 'package:input_quantity/input_quantity.dart';
 import '../widgets/tip_slider.dart';
 import '../utils/app_palletes.dart';
+import '../utils/maxvalue_textformatter.dart';
 
 class TipSummaryScreen extends StatefulWidget {
   const TipSummaryScreen({super.key, required this.title});
@@ -44,6 +45,8 @@ class _TipSummaryScreenState extends State<TipSummaryScreen> {
   late Palette? _currentPalette = _palettes.first;
 
   late final TextEditingController _controllerBillAmount;
+  bool _overLimitBillAmountSnackShown = false;
+  static const double _maxBillAmount = 10000;
 
   Color currentBgColor = Colors.white;
 
@@ -236,7 +239,11 @@ class _TipSummaryScreenState extends State<TipSummaryScreen> {
                                   child: TextField(
                                     keyboardType: TextInputType.numberWithOptions(decimal: true, signed: false),
                                     inputFormatters: [
-                                      FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*$')),
+                                      MaxValueTextInputFormatter(
+                                        max: 10000,          // hard cap; input auto-corrects to 10000
+                                        allowDecimal: true,  // set false for integers only
+                                        maxDecimalPlaces: 2, // optional: limit fractional digits (remove if not needed)
+                                      ),
                                     ],
                                     controller: _controllerBillAmount,
                                     decoration: InputDecoration(
