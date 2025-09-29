@@ -1,6 +1,6 @@
 # solo_02
 
-A simple tip calculator.
+A new Flutter project.
 
 ## Getting Started
 
