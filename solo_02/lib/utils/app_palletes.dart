@@ -12,6 +12,8 @@ class Palette {
   late TextStyle _titleMedium; 
   late TextStyle _headlineLarge;
 
+  late Colors _inputSplitCounterColor;
+
   late Colors _sliderActiveColor;
   late Colors _sliderInactiveColor;
 
@@ -39,6 +41,8 @@ class Palette {
   TextStyle get titleSmall => _titleSmall;
   TextStyle get titleMedium => _titleMedium;
   TextStyle get headlineLarge => _headlineLarge;
+
+  Color get inputSplitCounterColor => luminance == Luminance.light ? Colors.black : Colors.white;
 
   Color get sliderActiveColor => luminance == Luminance.light ? Colors.black : Colors.white;
   Color get sliderInactiveColor => luminance == Luminance.light ? Colors.black : Colors.white.withOpacity(0.3);

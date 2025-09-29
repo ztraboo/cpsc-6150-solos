@@ -271,15 +271,23 @@ class _TipSummaryScreenState extends State<TipSummaryScreen> {
                                 style: _currentPalette?.titleMedium, // Theme.of(context).textTheme.titleMedium,
                               ),
                               // https://pub.dev/packages/input_quantity
-                              InputQty.int(
+                              InputQty.int( 
                                   initVal: _splitPeopleCount,
                                   minVal: _splitPeopleCountMin,
                                   maxVal: _splitPeopleCountMax,
+                                  qtyFormProps: QtyFormProps(
+                                    style: _currentPalette?.bodyMedium.copyWith(
+                                      fontWeight: FontWeight.w800,
+                                    ), // Theme.of(context).textTheme.bodyMedium,
+                                  ),
                                   decoration: QtyDecorationProps(
                                       qtyStyle: QtyStyle.classic,
                                       isBordered: false,
                                       borderShape: BorderShapeBtn.square,
-                                      width: 12),
+                                      width: 12,
+                                      btnColor: _currentPalette?.inputSplitCounterColor as Color,
+                                      iconColor: _currentPalette?.inputSplitCounterColor as Color,
+                                  ),
                                   onQtyChanged: (newSplit) {
                                     _updateTotalPerPerson(
                                       billAmount: double.tryParse(_controllerBillAmount.text) ?? 0.0,
