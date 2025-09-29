@@ -185,7 +185,7 @@ class _TipSummaryScreenState extends State<TipSummaryScreen> {
                                 Text(
                                   '\$${_totalAmount.toStringAsFixed(2)}',
                                   style: _currentPalette?.headlineLarge?.copyWith( // Theme.of(context).textTheme.headlineLarge?.copyWith(
-                                    // color: Colors.indigo,
+                                    color: _currentPalette?.isBgLight == true ? Colors.indigo : Colors.indigo.shade100,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
@@ -200,7 +200,7 @@ class _TipSummaryScreenState extends State<TipSummaryScreen> {
                                 Text(
                                   '\$${_totalPerPerson.toStringAsFixed(2)}',
                                   style: _currentPalette?.headlineLarge?.copyWith( // Theme.of(context).textTheme.headlineLarge?.copyWith(
-                                    // color: Colors.amber.shade900,
+                                    color: _currentPalette?.isBgLight == true ? Colors.amber.shade900 : Colors.amber.shade300,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),

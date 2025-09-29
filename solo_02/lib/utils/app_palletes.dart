@@ -37,6 +37,9 @@ class Palette {
     fontWeight: FontWeight.bold,
   );
 
+  bool get isBgLight => luminance == Luminance.light;
+  bool get isBgDark => luminance == Luminance.dark;
+
   TextStyle get bodyMedium => _bodyMedium;
   TextStyle get titleSmall => _titleSmall;
   TextStyle get titleMedium => _titleMedium;
