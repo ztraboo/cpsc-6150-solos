@@ -39,6 +39,7 @@ class SearchPokemonController extends GetxController {
       fetchedAPIItems.value = true;
       searchPokemonItems.value = apiPokemonItems = await PokeAPI().fetchPokemonList();
     } catch (e) {
+      PokeAPI.simulateAPIFail(false);
       debugPrint('Error fetching Pokémon data: $e');
       searchPokemonItems.value = apiPokemonItems = <PokemonModel>[];
     }

@@ -10,6 +10,18 @@ class PokeAPI {
   factory PokeAPI() => _instance;
   PokeAPI._internal();
 
+  bool _simulateAPIFail = true;
+  static simulateAPIFail(bool testing) {
+    if (testing) {
+      debugPrint('PokeAPI: Testing mode enabled.');
+      _instance._simulateAPIFail = true;
+    }
+    else {
+      debugPrint('PokeAPI: Testing mode disabled.');
+      _instance._simulateAPIFail = false;
+    }
+  }
+
   // Define the base URL for the Pokémon API
   static const String baseUrl = 'https://pokeapi.co/api/v2';
 
@@ -21,7 +33,7 @@ class PokeAPI {
         throw TimeoutException('The connection has timed out, Please try again!');
       },
     );
-    if (response.statusCode == 200) {
+    if (!_simulateAPIFail && response.statusCode == 200) {
       // Simulate a delay to mimic network call (5 seconds)
       // await Future.delayed(const Duration(seconds: 5));
 
