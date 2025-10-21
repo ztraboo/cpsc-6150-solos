@@ -49,6 +49,14 @@ class SignUpScreen extends StatelessWidget {
 
           return Column(
             children: [
+              Container(
+                padding: EdgeInsets.all(4.0),
+                child: Text(
+                  'Use the checkbox on the right of each event to select it for sign up. Events with closed sign-up cannot be selected. Times shown are USU volunteer arrival times for the event. Use the filters below to narrow down the list of events displayed.',
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ),
+              const SizedBox(height: 8),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(

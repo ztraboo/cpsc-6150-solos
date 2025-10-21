@@ -48,6 +48,14 @@ class EventsScreen extends StatelessWidget {
 
           return Column(
             children: [
+              Container(
+                padding: EdgeInsets.all(4.0),
+                child: Text(
+                  'Use the Add Event button to create new events. Use the filters below to narrow down the list of events displayed.',
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ),
+              const SizedBox(height: 8),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
