@@ -93,19 +93,19 @@ class _HomeScaffoldState extends State<HomeScaffold> {
       body: IndexedStack(
         index: _selectedIndex,
         children: [
-          PreferencesScreen(
-            onToggleTheme: widget.onToggleTheme,
-            darkMode: widget.darkMode
-          ),
           EventsScreen(
             darkMode: widget.darkMode
           ),
           SignUpScreen(
             darkMode: widget.darkMode
+          ),
+          PreferencesScreen(
+            onToggleTheme: widget.onToggleTheme,
+            darkMode: widget.darkMode
           )
         ],
       ),
-      floatingActionButton: _selectedIndex == 1
+      floatingActionButton: _selectedIndex == 0
           ? FloatingActionButton.extended(
               onPressed: () async {
                 try {
@@ -131,9 +131,9 @@ class _HomeScaffoldState extends State<HomeScaffold> {
         selectedIndex: _selectedIndex,
         onDestinationSelected: (i) => setState(() => _selectedIndex = i),
         destinations: const [
-          NavigationDestination(icon: Icon(Icons.tune), label: 'Preferences'),
           NavigationDestination(icon: Icon(Icons.list), label: 'Events'),
           NavigationDestination(icon: Icon(Icons.person_add), label: 'Sign Up'),
+          NavigationDestination(icon: Icon(Icons.tune), label: 'Preferences')
         ],
       ),
     );

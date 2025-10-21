@@ -63,6 +63,7 @@ class Event {
     required this.size,
     // required this.kind,
     required this.show,
+    this.imageAsset,
     required this.signedUp,
     required this.allowSignUp,
   });
@@ -75,6 +76,7 @@ class Event {
   final String size;
   // final EventType kind;
   final String show;
+  final String? imageAsset;
   final bool signedUp;
   final bool allowSignUp;
 
@@ -85,6 +87,7 @@ class Event {
     String? dateTimeIso,
     String? location,
     String? size,
+    String? imageAsset,
     String? show,
     bool? signedUp,
     bool? allowSignUp,
@@ -96,6 +99,7 @@ class Event {
       dateTimeIso: dateTimeIso ?? this.dateTimeIso,
       location: location ?? this.location,
       size: size ?? this.size,
+      imageAsset: imageAsset ?? this.imageAsset,
       // kind: kind ?? this.kind,
       show: show ?? this.show,
       signedUp: signedUp ?? this.signedUp,

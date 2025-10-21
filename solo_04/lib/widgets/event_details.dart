@@ -9,14 +9,14 @@ class EventDetails extends StatelessWidget {
     super.key,
     required bool darkMode,
     required List<Event> filtered,
-    required Widget trailing,
+    this.trailing,
   }) : _darkMode = darkMode,
-       _filtered = filtered,
-       _trailing = trailing;
+       _filtered = filtered;
 
   final bool _darkMode;
   final List<Event> _filtered;
-  final Widget _trailing;
+  // Optional per-event trailing widget builder. If provided, called with the Event.
+  final Widget Function(Event)? trailing;
 
   @override
   Widget build(BuildContext context) {
@@ -25,114 +25,179 @@ class EventDetails extends StatelessWidget {
       separatorBuilder: (_, __) => const SizedBox(height: 8),
       itemBuilder: (context, idx) {
         final e = _filtered[idx];
-        return Card(
-          color: _darkMode ? Colors.grey[800] : Colors.white,
-          child: ListTile(
-            title: Text(
-              e.show,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                fontWeight: FontWeight.bold,
-                color: (_darkMode ? Colors.white : Colors.black),
+
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Card(
+              elevation: 4.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12.0),
+                side: BorderSide(
+                  color: _darkMode ? Colors.amberAccent : Colors.grey,
+                  width: 1.0,
+                ),
+              ),
+              clipBehavior: Clip.hardEdge,
+              child: Stack(
+                children: [
+                  // Background image if available
+                  if (e.imageAsset != null)
+                    Positioned.fill(
+                      child: e.imageAsset!.endsWith('.svg')
+                          ? SvgPicture.asset(e.imageAsset!, fit: BoxFit.cover)
+                          : Image.asset(e.imageAsset!, fit: BoxFit.cover),
+                    ),
+
+                  // Semi-opaque overlay for text readability
+                  Positioned.fill(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.black.withOpacity(0.95),
+                            Colors.black.withOpacity(0.55),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  ListTile(
+                    tileColor: _darkMode ? Colors.transparent : Colors.transparent,
+                    title: Text(
+                      e.show,
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                    subtitle: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Builder(
+                          builder: (context) {
+                            String formatted = '';
+                            try {
+                              final dt = DateTime.parse(e.dateTimeIso);
+                              const wk = [
+                                'Monday',
+                                'Tuesday',
+                                'Wednesday',
+                                'Thursday',
+                                'Friday',
+                                'Saturday',
+                                'Sunday',
+                              ];
+                              final weekdayName = wk[dt.weekday - 1];
+                              final shortDate =
+                                  '${dt.month.toString().padLeft(2, '0')}/${dt.day.toString().padLeft(2, '0')}/${dt.year}';
+                              final time = MaterialLocalizations.of(context)
+                                  .formatTimeOfDay(
+                                    TimeOfDay(hour: dt.hour, minute: dt.minute),
+                                  );
+                              formatted = '$weekdayName, $shortDate - $time';
+                            } catch (_) {
+                              formatted =
+                                  e.date + (e.time.isNotEmpty ? ' - ${e.time}' : '');
+                            }
+                            return Text(
+                              formatted,
+                              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                fontSize: 16.0,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.amberAccent,
+                              ),
+                            );
+                          },
+                        ),
+                        const SizedBox(height: 30),
+                        Text.rich(
+                          TextSpan(
+                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white),
+                            children: [
+                              TextSpan(
+                                text: 'Location: ',
+                                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              TextSpan(
+                                text: friendlyLocation(e.location),
+                                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.normal,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Text.rich(
+                          TextSpan(
+                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white),
+                            children: [
+                              TextSpan(
+                                text: 'Size: ',
+                                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              TextSpan(
+                                text: friendlySize(e.size),
+                                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.normal,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    trailing: trailing != null
+                        ? trailing!(e)
+                        : IconButton(
+                            icon: Icon(Icons.edit, color: Colors.white),
+                            onPressed: () async {
+                              await Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) => CreateEventScreen(event: _filtered[idx]),
+                                ),
+                              );
+                            },
+                          ),
+                  ),
+                ],
               ),
             ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Builder(
-                  builder: (context) {
-                    String formatted = '';
-                    try {
-                      final dt = DateTime.parse(e.dateTimeIso);
-                      const wk = [
-                        'Monday',
-                        'Tuesday',
-                        'Wednesday',
-                        'Thursday',
-                        'Friday',
-                        'Saturday',
-                        'Sunday',
-                      ];
-                      final weekdayName = wk[dt.weekday - 1];
-                      final shortDate =
-                          '${dt.month.toString().padLeft(2, '0')}/${dt.day.toString().padLeft(2, '0')}/${dt.year}';
-                      final time = MaterialLocalizations.of(context)
-                          .formatTimeOfDay(
-                            TimeOfDay(hour: dt.hour, minute: dt.minute),
-                          );
-                      formatted = '$weekdayName, $shortDate - $time';
-                    } catch (_) {
-                      formatted =
-                          e.date + (e.time.isNotEmpty ? ' - ${e.time}' : '');
-                    }
-                    return Text(
-                      formatted,
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        fontWeight: FontWeight.normal,
-                        color: (_darkMode ? Colors.white70 : Colors.black87),
-                      ),
-                    );
-                  },
-                ),
-                Divider(
-                  color: (_darkMode
-                      ? Colors.white70
-                      : Colors.black87), // line color
-                  thickness: 1.0, // actual line thickness
-                  height:
-                      20.0, // vertical space the divider occupies (including padding)
-                ),
-                Text.rich(
-                  TextSpan(
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      // fontWeight: FontWeight.bold,
-                      color: (_darkMode ? Colors.white : Colors.black),
-                    ),
-                    children: [
-                      TextSpan(
-                        text: 'Location: ',
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          fontWeight: FontWeight.bold,
-                          color: (_darkMode ? Colors.white : Colors.black),
-                        ),
-                      ),
-                      TextSpan(text: friendlyLocation(e.location)),
-                    ],
-                  ),
-                ),
-                Text.rich(
-                  TextSpan(
-                    style: Theme.of(context).textTheme.bodyMedium,
-                    children: [
-                      TextSpan(
-                        text: 'Size: ',
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          fontWeight: FontWeight.bold,
-                          color: (_darkMode ? Colors.white : Colors.black),
-                        ),
-                      ),
-                      TextSpan(
-                        text: friendlySize(e.size),
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: (_darkMode ? Colors.white : Colors.black),
+
+            // Show a small indicator under the card when sign up is disabled
+            if (!e.allowSignUp)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(12, 8, 12, 0),
+                child: Row(
+                  children: [
+                      Icon(Icons.lock_outline, size: 16, color: _darkMode ? Colors.white70 : Colors.black54),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          'Sign up closed for this event',
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: _darkMode ? Colors.white70 : Colors.black54),
                         ),
                       ),
                     ],
-                  ),
                 ),
-              ],
-            ),
-            trailing: IconButton(
-              icon: const Icon(Icons.edit),
-              onPressed: () async {
-                await Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (_) => CreateEventScreen(event: _filtered[idx]),
-                  ),
-                );
-              },
-            ),
-          ),
+              ),
+          ],
         );
       },
     );

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'dart:convert';
+
 import 'package:solo_04/models/event.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:solo_04/models/event_model.dart';
 
 class EventForm extends StatefulWidget {
@@ -18,6 +21,7 @@ class _EventFormState extends State<EventForm> {
   TimeOfDay? _time;
   EventLocation? _location;
   EventSize? _eventSize;
+  String? _selectedAsset;
   final _showController = TextEditingController();
   bool _allowSignUp = false;
   String? _editingId;
@@ -40,6 +44,7 @@ class _EventFormState extends State<EventForm> {
       _eventSize = EventSize.values.byName(e.size);
       _showController.text = e.show;
       _allowSignUp = e.allowSignUp;
+      _selectedAsset = e.imageAsset;
       // time parsing from the saved string is omitted (best-effort parsing
       // is fragile across locales); leave _time null so user can re-select.
     }
@@ -124,6 +129,7 @@ class _EventFormState extends State<EventForm> {
       dateTimeIso: combined.toIso8601String(),
       location: _location!.name,
       size: _eventSize!.name,
+      imageAsset: _selectedAsset,
       // kind: EventType.general,
       show: _showController.text.trim(),
       signedUp: false,
@@ -274,6 +280,34 @@ class _EventFormState extends State<EventForm> {
           ),
           const SizedBox(height: 12),
 
+          // Background picker (modal)
+          const SizedBox(height: 8),
+          Text('Background (optional)', style: Theme.of(context).textTheme.bodySmall),
+          const SizedBox(height: 8),
+          Row(
+            children: [
+              _buildAssetPreview(),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    FilledButton(
+                      onPressed: _openAssetPicker,
+                      child: const Text('Choose Background'),
+                    ),
+                    TextButton(
+                      onPressed: () => setState(() => _selectedAsset = null),
+                      child: const Text('Clear'),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 12),
+
           // Sign Up
           CheckboxListTile(
             contentPadding: EdgeInsets.zero,
@@ -294,5 +328,108 @@ class _EventFormState extends State<EventForm> {
         ],
       ),
     );
+  }
+
+  // ...existing code...
+
+  Widget _buildAssetPreview() {
+    final path = _selectedAsset;
+    return SizedBox(
+      width: 92,
+      height: 88,
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(10),
+        child: Container(
+          color: Theme.of(context).colorScheme.surfaceVariant,
+          child: path == null
+              ? Center(child: Icon(Icons.image_outlined, color: Theme.of(context).colorScheme.onSurfaceVariant))
+              : path.endsWith('.svg')
+                  ? SvgPicture.asset(path, fit: BoxFit.cover)
+                  : Image.asset(path, fit: BoxFit.cover),
+        ),
+      ),
+    );
+  }
+
+  Future<void> _openAssetPicker() async {
+    // Try to read AssetManifest.json so we can list any images under assets/gallery/
+    List<String> assets = [];
+    try {
+      final manifestContent = await DefaultAssetBundle.of(context).loadString('AssetManifest.json');
+      final Map<String, dynamic> manifestMap = json.decode(manifestContent) as Map<String, dynamic>;
+      final gallery = manifestMap.keys.where((k) => k.startsWith('assets/gallery/')).toList()..sort();
+      if (gallery.isNotEmpty) {
+        assets = gallery;
+      }
+    } catch (_) {
+      // ignore and fallback below
+    }
+
+    // Fallback curated list if no gallery assets found
+    if (assets.isEmpty) {
+      assets = [
+        'assets/landing.png',
+        'assets/landing.jpg',
+        'assets/landing.svg',
+        'assets/usu_logo.svg',
+        'assets/usu_logo_dark.svg',
+      ];
+    }
+
+    final picked = await showModalBottomSheet<String>(
+      context: context,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+      ),
+      builder: (context) {
+        return Padding(
+          padding: MediaQuery.of(context).viewInsets + const EdgeInsets.all(12),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.grey[400], borderRadius: BorderRadius.circular(4))),
+              const SizedBox(height: 12),
+              Text('Choose Background', style: Theme.of(context).textTheme.titleMedium),
+              const SizedBox(height: 12),
+              SizedBox(
+                height: 360,
+                child: GridView.builder(
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, crossAxisSpacing: 8, mainAxisSpacing: 8, childAspectRatio: 1.2),
+                  itemCount: assets.length,
+                  itemBuilder: (c, i) {
+                    final p = assets[i];
+                    final selected = p == _selectedAsset;
+                    return GestureDetector(
+                      onTap: () => Navigator.of(context).pop(p),
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 140),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: selected ? Theme.of(context).colorScheme.primary : Colors.transparent, width: 2),
+                        ),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(6),
+                          child: p.endsWith('.svg') ? SvgPicture.asset(p, fit: BoxFit.cover) : Image.asset(p, fit: BoxFit.cover),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
+              const SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Cancel')),
+                ],
+              ),
+            ],
+          ),
+        );
+      },
+    );
+
+    if (picked != null) setState(() => _selectedAsset = picked);
   }
 }

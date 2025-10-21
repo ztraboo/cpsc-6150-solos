@@ -24,4 +24,14 @@ class EventRepository {
     newList[idx] = newList[idx].copyWith(signedUp: value);
     events.value = newList;
   }
+
+  /// Enable or disable sign-up for an event.
+  /// Encapsulates mutations to `allowSignUp`.
+  void setAllowSignUp(String id, bool value) {
+    final idx = events.value.indexWhere((e) => e.id == id);
+    if (idx < 0) return;
+    final newList = List<Event>.from(events.value);
+    newList[idx] = newList[idx].copyWith(allowSignUp: value);
+    events.value = newList;
+  }
 }

@@ -170,15 +170,19 @@ class SignUpScreen extends StatelessWidget {
                         return EventDetails(
                           darkMode: _darkMode,
                           filtered: filtered,
-                          trailing: IconButton(
-                            icon: const Icon(Icons.edit),
-                            onPressed: () async {
-                              await Navigator.of(context).push(
-                                MaterialPageRoute(
-                                  builder: (_) => Container(), // Placeholder for CreateEventScreen(event: e
-                                ),
-                              );
-                            },
+                          trailing: (Event e) => Transform.scale(
+                            scale: 1.2,
+                            child: Checkbox(
+
+                              value: e.signedUp,
+                              onChanged: e.allowSignUp
+                                  ? (val) {
+                                      EventRepository.instance.toggleSignUp(e.id, val ?? false);
+                                    }
+                                  : null,
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4.0)),
+                              side: BorderSide(color: (e.allowSignUp ? Colors.white : Colors.grey.shade600), width: 2.0),
+                            ),
                           ),
                         );
                       },

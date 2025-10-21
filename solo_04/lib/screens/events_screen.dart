@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:solo_04/models/event.dart';
 import 'package:solo_04/models/event_filter.dart';
 import 'package:solo_04/models/event_model.dart';
-// import 'package:solo_04/screens/create_events_screen.dart';
+import 'package:solo_04/screens/create_events_screen.dart';
 import 'package:solo_04/widgets/event_details.dart';
 import 'package:solo_04/widgets/events_empty.dart';
 
@@ -169,17 +169,16 @@ class EventsScreen extends StatelessWidget {
                         return EventDetails(
                           darkMode: _darkMode,
                           filtered: filtered,
-                          trailing: Container()
-                          // IconButton(
-                          //   icon: const Icon(Icons.edit),
-                          //   onPressed: () async {
-                          //     await Navigator.of(context).push(
-                          //       MaterialPageRoute(
-                          //         builder: (_) => CreateEventScreen(event: filtered[idx]),
-                          //       ),
-                          //     );
-                          //   },
-                          // )
+                          trailing: (Event e) => IconButton(
+                            icon: const Icon(Icons.edit, color: Colors.white),
+                            onPressed: () async {
+                              await Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) => CreateEventScreen(event: filtered[filtered.indexOf(e)]),
+                                ),
+                              );
+                            },
+                          )
                         );
                       },
                     );
