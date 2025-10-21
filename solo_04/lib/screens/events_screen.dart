@@ -186,7 +186,8 @@ class EventsScreen extends StatelessWidget {
                                 ),
                               );
                             },
-                          )
+                          ),
+                          onDelete: EventRepository.instance.remove,
                         );
                       },
                     );

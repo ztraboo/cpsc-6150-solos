@@ -34,4 +34,9 @@ class EventRepository {
     newList[idx] = newList[idx].copyWith(allowSignUp: value);
     events.value = newList;
   }
+
+  /// Remove an event by id.
+  void remove(String id) {
+    events.value = events.value.where((e) => e.id != id).toList();
+  }
 }

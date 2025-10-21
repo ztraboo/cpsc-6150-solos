@@ -10,6 +10,7 @@ class EventDetails extends StatelessWidget {
     required bool darkMode,
     required List<Event> filtered,
     this.trailing,
+    this.onDelete,
   }) : _darkMode = darkMode,
        _filtered = filtered;
 
@@ -17,6 +18,8 @@ class EventDetails extends StatelessWidget {
   final List<Event> _filtered;
   // Optional per-event trailing widget builder. If provided, called with the Event.
   final Widget Function(Event)? trailing;
+  // Optional delete callback. If provided, each item will be dismissible and call this with the event id.
+  final void Function(String id)? onDelete;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +29,7 @@ class EventDetails extends StatelessWidget {
       itemBuilder: (context, idx) {
         final e = _filtered[idx];
 
-        return Column(
+        final item = Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Card(
@@ -186,18 +189,46 @@ class EventDetails extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(12, 8, 12, 0),
                 child: Row(
                   children: [
-                      Icon(Icons.lock_outline, size: 16, color: _darkMode ? Colors.white70 : Colors.black54),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          'Sign up closed for this event',
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: _darkMode ? Colors.white70 : Colors.black54),
-                        ),
+                    Icon(Icons.lock_outline, size: 16, color: _darkMode ? Colors.white70 : Colors.black54),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        'Sign up closed for this event',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: _darkMode ? Colors.white70 : Colors.black54),
                       ),
-                    ],
+                    ),
+                  ],
                 ),
               ),
           ],
+        );
+
+        if (onDelete == null) return item;
+
+        return Dismissible(
+          key: ValueKey(e.id),
+          direction: DismissDirection.endToStart,
+          background: Container(
+            alignment: Alignment.centerRight,
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            color: Colors.redAccent,
+            child: const Icon(Icons.delete, color: Colors.white),
+          ),
+          confirmDismiss: (direction) async {
+            return await showDialog<bool>(
+              context: context,
+              builder: (ctx) => AlertDialog(
+                title: const Text('Delete event?'),
+                content: const Text('Are you sure you want to delete this event? This cannot be undone.'),
+                actions: [
+                  TextButton(onPressed: () => Navigator.of(ctx).pop(false), child: const Text('Cancel')),
+                  TextButton(onPressed: () => Navigator.of(ctx).pop(true), child: const Text('Delete')),
+                ],
+              ),
+            );
+          },
+          onDismissed: (_) => onDelete!(e.id),
+          child: item,
         );
       },
     );
