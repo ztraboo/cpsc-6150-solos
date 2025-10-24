@@ -86,7 +86,7 @@ class EventDetails extends StatelessWidget {
                             builder: (context) {
                               String formatted = '';
                               try {
-                                final dt = DateTime.parse(e.dateTimeIso);
+                                final dt = DateTime.parse(e.arrivalDateTimeIso);
                                 const wk = [
                                   'Monday',
                                   'Tuesday',

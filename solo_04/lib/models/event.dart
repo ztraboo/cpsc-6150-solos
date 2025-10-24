@@ -12,21 +12,6 @@ extension EventLocationX on EventLocation {
   };
 }
 
-// enum EventType {
-//   comedy,
-//   concert,
-//   dance,
-//   festival,
-//   general,
-//   graduation,
-//   lecture,
-//   play,
-//   sport
-// }
-
-// enum ConcertType { rock, jazz, pop }
-// enum SportType { baseball, basketball, football, hockey }
-
 enum EventSize { large, small }
 
 extension EventSizeX on EventSize {
@@ -56,12 +41,9 @@ String friendlySize(String name) {
 class Event {
   Event({
     required this.id,
-    required this.date,
-    required this.time,
-    required this.dateTimeIso,
+    required this.arrivalDateTimeIso,
     required this.location,
     required this.size,
-    // required this.kind,
     required this.show,
     this.imageAsset,
     required this.signedUp,
@@ -69,12 +51,9 @@ class Event {
   });
 
   final String id;
-  final String date; // ISO date
-  final String time; // human-friendly time
-  final String dateTimeIso; // combined ISO datetime
+  final String arrivalDateTimeIso; // combined ISO datetime
   final String location;
   final String size;
-  // final EventType kind;
   final String show;
   final String? imageAsset;
   final bool signedUp;
@@ -82,9 +61,7 @@ class Event {
 
   Event copyWith({
     String? id,
-    String? date,
-    String? time,
-    String? dateTimeIso,
+    String? arrivalDateTimeIso,
     String? location,
     String? size,
     String? imageAsset,
@@ -94,16 +71,57 @@ class Event {
   }) {
     return Event(
       id: id ?? this.id,
-      date: date ?? this.date,
-      time: time ?? this.time,
-      dateTimeIso: dateTimeIso ?? this.dateTimeIso,
+      arrivalDateTimeIso: arrivalDateTimeIso ?? this.arrivalDateTimeIso,
       location: location ?? this.location,
       size: size ?? this.size,
       imageAsset: imageAsset ?? this.imageAsset,
-      // kind: kind ?? this.kind,
       show: show ?? this.show,
       signedUp: signedUp ?? this.signedUp,
       allowSignUp: allowSignUp ?? this.allowSignUp,
     );
+  }
+
+  // Helpers to extract date components from arrivalDateTimeIso.
+  // ------------------------------------------------------------
+
+  // Get the weekday name (e.g., "Monday").
+  String get weekDayName {
+    try {
+      final dt = DateTime.parse(arrivalDateTimeIso);
+      const wk = [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday'
+      ];
+      return wk[dt.weekday - 1];
+    } catch (_) {
+      return arrivalDateTimeIso;
+    }
+  }
+
+  // Get the arrival date in MM/DD/YYYY format.
+  String get arrivalDateShort {
+    try {
+      final dt = DateTime.parse(arrivalDateTimeIso);
+      return '${dt.month.toString().padLeft(2, '0')}/${dt.day.toString().padLeft(2, '0')}/${dt.year}';
+    } catch (_) {
+      return arrivalDateTimeIso;
+    }
+  }
+
+  // Get the arrival time in HH:MM AM/PM format.
+  String get arrivalTimeShort {
+    try {
+      final dt = DateTime.parse(arrivalDateTimeIso);
+      final hour = dt.hour > 12 ? dt.hour - 12 : (dt.hour == 0 ? 12 : dt.hour);
+      final ampm = dt.hour >= 12 ? 'PM' : 'AM';
+      return '$hour:${dt.minute.toString().padLeft(2, '0')} $ampm';
+    } catch (_) {
+      return arrivalDateTimeIso;
+    }
   }
 }

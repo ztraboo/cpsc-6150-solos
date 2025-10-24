@@ -6,7 +6,7 @@ import 'package:solo_04/screens/create_events_screen.dart';
 import 'package:solo_04/widgets/event_details.dart';
 import 'package:solo_04/widgets/events_empty.dart';
 
-class EventsScreen extends StatelessWidget {
+class EventsScreen extends StatefulWidget {
   const EventsScreen({
     super.key,
     required bool darkMode,
@@ -15,16 +15,29 @@ class EventsScreen extends StatelessWidget {
   final bool _darkMode;
 
   @override
+  State<EventsScreen> createState() => _EventsScreenState();
+}
+
+class _EventsScreenState extends State<EventsScreen> {
+  @override
+  void initState() {
+    super.initState();
+
+    // Load events from the database when the screen initializes.
+    EventModel.instance.loadEvents();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(12.0),
       child: ValueListenableBuilder<List<Event>>(
-        valueListenable: EventRepository.instance.events,
+        valueListenable: EventModel.instance.events,
         builder: (context, events, _) {
           if (events.isEmpty) {
             // return Center(child: Text('No events created yet.'));
             return EventsEmpty(
-              darkMode: _darkMode,
+              darkMode: widget._darkMode,
               title: 'Your event list is empty',
               message: 'No events have been created. Click the + button to create an event.', 
             );
@@ -35,7 +48,7 @@ class EventsScreen extends StatelessWidget {
               events
                   .map((e) {
                     try {
-                      final dt = DateTime.parse(e.dateTimeIso);
+                      final dt = DateTime.parse(e.arrivalDateTimeIso);
                       return '${dt.year.toString().padLeft(4, '0')}-${dt.month.toString().padLeft(2, '0')}';
                     } catch (_) {
                       return null;
@@ -157,7 +170,7 @@ class EventsScreen extends StatelessWidget {
                               selectedMonths.isEmpty ||
                               (() {
                                 try {
-                                  final dt = DateTime.parse(e.dateTimeIso);
+                                  final dt = DateTime.parse(e.arrivalDateTimeIso);
                                   final key =
                                       '${dt.year.toString().padLeft(4, '0')}-${dt.month.toString().padLeft(2, '0')}';
                                   return selectedMonths.contains(key);
@@ -175,7 +188,7 @@ class EventsScreen extends StatelessWidget {
                         }
 
                         return EventDetails(
-                          darkMode: _darkMode,
+                          darkMode: widget._darkMode,
                           filtered: filtered,
                           trailing: (Event e) => IconButton(
                             icon: const Icon(Icons.edit, color: Colors.white),
@@ -187,7 +200,7 @@ class EventsScreen extends StatelessWidget {
                               );
                             },
                           ),
-                          onDelete: EventRepository.instance.remove,
+                          onDelete: EventModel.instance.remove,
                         );
                       },
                     );

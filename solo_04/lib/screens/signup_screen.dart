@@ -20,7 +20,7 @@ class SignUpScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(12.0),
       child: ValueListenableBuilder<List<Event>>(
-        valueListenable: EventRepository.instance.events,
+        valueListenable: EventModel.instance.events,
         builder: (context, events, _) {
           if (events.isEmpty) {
             return EventsEmpty(
@@ -36,7 +36,7 @@ class SignUpScreen extends StatelessWidget {
               events
                   .map((e) {
                     try {
-                      final dt = DateTime.parse(e.dateTimeIso);
+                      final dt = DateTime.parse(e.arrivalDateTimeIso);
                       return '${dt.year.toString().padLeft(4, '0')}-${dt.month.toString().padLeft(2, '0')}';
                     } catch (_) {
                       return null;
@@ -158,7 +158,7 @@ class SignUpScreen extends StatelessWidget {
                               selectedMonths.isEmpty ||
                               (() {
                                 try {
-                                  final dt = DateTime.parse(e.dateTimeIso);
+                                  final dt = DateTime.parse(e.arrivalDateTimeIso);
                                   final key =
                                       '${dt.year.toString().padLeft(4, '0')}-${dt.month.toString().padLeft(2, '0')}';
                                   return selectedMonths.contains(key);
@@ -185,7 +185,7 @@ class SignUpScreen extends StatelessWidget {
                               value: e.signedUp,
                               onChanged: e.allowSignUp
                                   ? (val) {
-                                      EventRepository.instance.toggleSignUp(e.id, val ?? false);
+                                      EventModel.instance.toggleSignUp(e.id, val ?? false);
                                     }
                                   : null,
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4.0)),

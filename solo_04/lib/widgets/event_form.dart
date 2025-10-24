@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:uuid/uuid.dart';
 
 import 'package:solo_04/models/event.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -32,10 +33,10 @@ class _EventFormState extends State<EventForm> {
     final e = widget.event;
     if (e != null) {
       _editingId = e.id;
-      _date = DateTime.parse(e.date);
+      _date = DateTime.parse(e.arrivalDateTimeIso);
       // Populate time from the saved combined ISO datetime so the picker shows it when editing.
       try {
-        final dt = DateTime.parse(e.dateTimeIso);
+        final dt = DateTime.parse(e.arrivalDateTimeIso);
         _time = TimeOfDay(hour: dt.hour, minute: dt.minute);
       } catch (_) {
         _time = null;
@@ -109,11 +110,13 @@ class _EventFormState extends State<EventForm> {
     // Handle your save logic here (API call, local DB, etc.)
     debugPrint('Event form submitted: $data');
 
-    // Persist to in-memory repository so the Sign Up tab can list events.
-    final id = _editingId ?? DateTime.now().millisecondsSinceEpoch.toString();
-    final timeStr = _time == null
-        ? ''
-        : MaterialLocalizations.of(context).formatTimeOfDay(_time!);
+    // Persist to in-memory EventsModel so the Sign Up tab can list events.
+    // Use existing ID if editing, otherwise generate a new one.
+    // New UUIDs can be generated using the 'uuid' package.
+    // Creates a globally unique identifier for the event avoiding collisions across devices/sessions.
+    final id = _editingId ?? Uuid().v4();
+
+    // Combine date and time into a single ISO datetime string.
     final combined = DateTime(
       _date!.year,
       _date!.month,
@@ -124,22 +127,19 @@ class _EventFormState extends State<EventForm> {
 
     final newEvent = Event(
       id: id,
-      date: _date!.toIso8601String(),
-      time: timeStr,
-      dateTimeIso: combined.toIso8601String(),
+      arrivalDateTimeIso: combined.toIso8601String(),
       location: _location!.name,
       size: _eventSize!.name,
       imageAsset: _selectedAsset,
-      // kind: EventType.general,
       show: _showController.text.trim(),
       signedUp: false,
       allowSignUp: _allowSignUp,
     );
 
     if (_editingId != null) {
-      EventRepository.instance.update(newEvent);
+      EventModel.instance.update(newEvent);
     } else {
-      EventRepository.instance.add(newEvent);
+      EventModel.instance.add(newEvent);
     }
     // ScaffoldMessenger.of(
     //   context,

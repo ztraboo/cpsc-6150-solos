@@ -85,27 +85,9 @@ class EventDetails extends StatelessWidget {
                           builder: (context) {
                             String formatted = '';
                             try {
-                              final dt = DateTime.parse(e.dateTimeIso);
-                              const wk = [
-                                'Monday',
-                                'Tuesday',
-                                'Wednesday',
-                                'Thursday',
-                                'Friday',
-                                'Saturday',
-                                'Sunday',
-                              ];
-                              final weekdayName = wk[dt.weekday - 1];
-                              final shortDate =
-                                  '${dt.month.toString().padLeft(2, '0')}/${dt.day.toString().padLeft(2, '0')}/${dt.year}';
-                              final time = MaterialLocalizations.of(context)
-                                  .formatTimeOfDay(
-                                    TimeOfDay(hour: dt.hour, minute: dt.minute),
-                                  );
-                              formatted = '$weekdayName, $shortDate - $time';
+                              formatted = '${e.weekDayName}, ${e.arrivalDateShort} - ${e.arrivalTimeShort}';
                             } catch (_) {
-                              formatted =
-                                  e.date + (e.time.isNotEmpty ? ' - ${e.time}' : '');
+                              formatted = e.arrivalDateTimeIso;
                             }
                             return Text(
                               formatted,
