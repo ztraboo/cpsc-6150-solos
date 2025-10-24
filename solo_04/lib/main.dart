@@ -18,11 +18,13 @@ class EventFormApp extends StatefulWidget {
 
 class _EventFormAppState extends State<EventFormApp> {
   bool _darkMode = false;
+  bool _adminMode = false;
 
   @override
   void initState() {
     super.initState();
     _loadTheme();
+    _loadAdminMode();
   }
 
   Future<void> _loadTheme() async {
@@ -34,6 +36,17 @@ class _EventFormAppState extends State<EventFormApp> {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('darkMode', value);
     setState(() => _darkMode = value);
+  }
+
+  Future<void> _loadAdminMode() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() => _adminMode = prefs.getBool('adminMode') ?? false);
+  }
+
+  Future<void> _setAdminMode(bool value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('adminMode', value);
+    setState(() => _adminMode = value);
   }
 
   @override
@@ -52,6 +65,8 @@ class _EventFormAppState extends State<EventFormApp> {
       home: HomeScaffold(
         darkMode: _darkMode,
         onToggleTheme: () => _setTheme(!_darkMode),
+        adminMode: _adminMode,
+        onToggleAdmin: () => _setAdminMode(!_adminMode)
       ),
     );
   }
@@ -62,10 +77,14 @@ class HomeScaffold extends StatefulWidget {
     super.key,
     required this.darkMode,
     required this.onToggleTheme,
+    required this.adminMode,
+    required this.onToggleAdmin,
   });
 
   final bool darkMode;
   final VoidCallback onToggleTheme;
+  final bool adminMode;
+  final VoidCallback onToggleAdmin;
 
   @override
   State<HomeScaffold> createState() => _HomeScaffoldState();
@@ -73,14 +92,74 @@ class HomeScaffold extends StatefulWidget {
 
 class _HomeScaffoldState extends State<HomeScaffold> {
   int _selectedIndex = 0;
-  static const _labels = ['USU Preferences', 'USU Events', 'USU Sign Up'];
+  // static const _labels = ['USU Preferences', 'USU Events', 'USU Sign Up'];
+
+  @override
+  void didUpdateWidget(covariant HomeScaffold oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Ensure selected index remains valid when adminMode toggles and available pages change.
+    final oldPagesCount = oldWidget.adminMode ? 3 : 2;
+    final newPagesCount = widget.adminMode ? 3 : 2;
+
+    // If toggling adminMode ON and we were on the old last (Preferences),
+    // map to the new last so Preferences remains selected.
+    if (!oldWidget.adminMode && widget.adminMode) {
+      if (_selectedIndex == oldPagesCount - 1) {
+        setState(() => _selectedIndex = newPagesCount - 1);
+        return;
+      }
+    }
+
+    if (_selectedIndex >= newPagesCount) {
+      setState(() => _selectedIndex = newPagesCount - 1);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
+    // Build pages, destinations and labels in the same order so indices align.
+    final pages = widget.adminMode
+        ? <Widget>[
+            EventsScreen(darkMode: widget.darkMode),
+            SignUpScreen(darkMode: widget.darkMode),
+            PreferencesScreen(
+              onToggleTheme: widget.onToggleTheme,
+              darkMode: widget.darkMode,
+              onToggleAdmin: widget.onToggleAdmin,
+              adminMode: widget.adminMode,
+            ),
+          ]
+        : <Widget>[
+            SignUpScreen(darkMode: widget.darkMode),
+            PreferencesScreen(
+              onToggleTheme: widget.onToggleTheme,
+              darkMode: widget.darkMode,
+              onToggleAdmin: widget.onToggleAdmin,
+              adminMode: widget.adminMode,
+            ),
+          ];
+
+    final destinations = widget.adminMode
+        ? <NavigationDestination>[
+            const NavigationDestination(icon: Icon(Icons.list), label: 'Events'),
+            const NavigationDestination(icon: Icon(Icons.person_add), label: 'Sign Up'),
+            const NavigationDestination(icon: Icon(Icons.tune), label: 'Preferences'),
+          ]
+        : <NavigationDestination>[
+            const NavigationDestination(icon: Icon(Icons.person_add), label: 'Sign Up'),
+            const NavigationDestination(icon: Icon(Icons.tune), label: 'Preferences'),
+          ];
+
+    final labels = widget.adminMode
+        ? ['USU Events', 'USU Sign Up', 'USU Preferences']
+        : ['USU Sign Up', 'USU Preferences'];
+
+    final currentIndex = (_selectedIndex < pages.length) ? _selectedIndex : (pages.length - 1);
+
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text(_labels[_selectedIndex]),
+        title: Text(labels[currentIndex]),
         // backgroundColor: Colors.blueGrey.shade200,
         actions: [
           IconButton(
@@ -91,21 +170,10 @@ class _HomeScaffoldState extends State<HomeScaffold> {
         ],
       ),
       body: IndexedStack(
-        index: _selectedIndex,
-        children: [
-          EventsScreen(
-            darkMode: widget.darkMode
-          ),
-          SignUpScreen(
-            darkMode: widget.darkMode
-          ),
-          PreferencesScreen(
-            onToggleTheme: widget.onToggleTheme,
-            darkMode: widget.darkMode
-          )
-        ],
+        index: currentIndex,
+        children: pages,
       ),
-      floatingActionButton: _selectedIndex == 0
+      floatingActionButton: (widget.adminMode && currentIndex == 0)
           ? FloatingActionButton.extended(
               onPressed: () async {
                 try {
@@ -128,13 +196,9 @@ class _HomeScaffoldState extends State<HomeScaffold> {
             )
           : null,
       bottomNavigationBar: NavigationBar(
-        selectedIndex: _selectedIndex,
+        selectedIndex: currentIndex,
         onDestinationSelected: (i) => setState(() => _selectedIndex = i),
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.list), label: 'Events'),
-          NavigationDestination(icon: Icon(Icons.person_add), label: 'Sign Up'),
-          NavigationDestination(icon: Icon(Icons.tune), label: 'Preferences')
-        ],
+        destinations: destinations,
       ),
     );
   }
